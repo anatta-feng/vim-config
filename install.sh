@@ -10,10 +10,10 @@
 
 set -eo pipefail
 
-app_name="space-vim"
+app_name="vim-config"
 repo_uri="https://github.com/emrysf/vim-config.git"
-repo_name="space-vim"
-repo_path="$HOME/.space-vim"
+repo_name="vim-config"
+repo_path="$HOME/.vim-config"
 repo_branch="master"
 _all=
 _vim=
