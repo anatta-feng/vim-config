@@ -11,7 +11,7 @@
 set -eo pipefail
 
 app_name="space-vim"
-repo_uri="https://github.com/emrysf/space-vim.git"
+repo_uri="https://github.com/emrysf/vim-config.git"
 repo_name="space-vim"
 repo_path="$HOME/.space-vim"
 repo_branch="master"
