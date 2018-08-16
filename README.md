@@ -94,7 +94,7 @@ The most recent Vim(NeoVim) version is recommended, for space-vim has been speci
 #### one-line installer
 
 ```bash
-$ bash <(curl -fsSL https://raw.githubusercontent.com/emrysf/space-vim/master/install.sh)
+$ bash <(curl -fsSL https://raw.githubusercontent.com/emrysf/vim-config/master/install.sh)
 ```
 #### Makefile
 
@@ -115,10 +115,10 @@ The easist way is to download [`install.cmd`](https://raw.githubusercontent.com/
 
 Given git and Vim/NeoVim have been installed already:
 
-1. Clone [space-vim](https://github.com/liuchengxu/space-vim)
+1. Clone [space-vim](https://github.com/emrysf/vim-config)
 
     ```bash
-    $ git clone https://github.com/emrysf/space-vim.git ~/.space-vim
+    $ git clone https://github.com/emrysf/vim-config.git ~/.space-vim
     ```
 
 2. Install [vim-plug](https://github.com/junegunn/vim-plug#installation), refer to vim-plug installation section for more information.
@@ -220,7 +220,7 @@ If have a heavy customized configuration, you can organize them in *private* dir
 
 ## How to use
 
-First of all, I recommend you to look through the existing key bindings via <kbd>SPC ?</kbd>. What's more, you definitely can not miss reading the README of [better-defaults layer](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/README.md), which is of great importance for you to get started quickly.
+First of all, I recommend you to look through the existing key bindings via <kbd>SPC ?</kbd>. What's more, you definitely can not miss reading the README of [better-defaults layer](https://github.com/emrysf/vim-config/blob/master/layers/%2Bdistributions/better-defaults/README.md), which is of great importance for you to get started quickly.
 
 For detailed instruction, please refer to the README under the certain layer enabled, or you can see config.vim and packages.vim directly.
 
@@ -230,7 +230,7 @@ If the README is not elaborate, sorry for that, space-vim now is in the early st
 
 The modular design is originally from [spacemacs](https://github.com/syl20bnr/spacemacs). The implementation of logic in space-vim is similar to [vim-plug](https://github.com/junegunn/vim-plug).
 
-If you want to know more about the bootstrap of space-vim, please see [bootstrap](https://github.com/liuchengxu/space-vim/wiki/Bootstrap) in wiki.
+If you want to know more about the bootstrap of space-vim, please see [bootstrap](https://github.com/emrysf/vim-config/wiki/Bootstrap) in wiki.
 
 ### Commands
 
@@ -262,7 +262,7 @@ For more details about true colour, please see the gist [TrueColour.md](https://
 
 <img src="https://github.com/liuchengxu/space-vim/blob/gh-pages/docs/img/iterm2_powerline_setting.png?raw=true" align="right" width="550px" alt="iterm2-font-setting" />
 
-First, install the [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) or [Powerline](https://github.com/powerline/fonts) font, which is important for [airline](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bthemes/airline/README.md) layer.
+First, install the [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) or [Powerline](https://github.com/powerline/fonts) font, which is important for [airline](https://github.com/emrysf/vim-config/blob/master/layers/%2Bthemes/airline/README.md) layer.
 
 Second, since console Vim uses whatever font the console/terminal is using, you'll have to change the font setting of your terminal.
 
